@@ -169,7 +169,11 @@ footer p {
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    body{background-position: center;}
+    body{
+         background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url('background/selective-focus-shot-eastern-cottontail-rabbit-green-field.jpg');background-position: center;}
     header {
         flex-direction: column;
         text-align: center;
