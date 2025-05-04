@@ -149,7 +149,11 @@ footer p {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-    body{background-position: center;}
+    body{
+        background-image: url(background/cute-domestic-furry-rabbit-cage-daytime.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;background-position: center;}
 
     .header-container {
         flex-direction: column;
