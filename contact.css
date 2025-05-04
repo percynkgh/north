@@ -180,7 +180,11 @@ footer p {
 }
 
 @media (max-width: 768px) {  
-    body{background-position: center;}
+    body{
+        background-image: url(background/cute-domestic-furry-rabbit-cage-daytime.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;background-position: center;}
 
     .contact {
         width: 95%;
