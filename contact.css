@@ -1,0 +1,203 @@
+/* contact.css */
+
+body {
+    font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    background-image: url(background/cute-domestic-furry-rabbit-cage-daytime.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: #4b0082;
+    color: white;
+    margin: 20px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+    background-color: white;
+    margin: 50px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form-container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #6a0dad;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #530c9b;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    padding: 20px;
+    background-color: #4b0082;
+    color: white;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.quick-links,
+.contact-info {
+    width: 45%;
+    
+    font-size: 17px;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: row;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.quick-links ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-media a {
+    color: white;
+}
+
+footer p {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    body{background-position: center;}
+
+    .header-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .contact {
+        width: 90%;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .quick-links,
+    .contact-info {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {  
+    body{background-position: center;}
+
+    .contact {
+        width: 95%;
+    }
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .quick-links,
+    .contact-info {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo {
+        font-size: 22px;
+    }
+    .contact {
+        width: 100%;
+    }
+}
