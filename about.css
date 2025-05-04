@@ -181,6 +181,6 @@ footer p {
         font-size: 22px;
     }
     .about-container, .mission-container {
-        width: 100%;
+        width: 80%;
     }
 }
