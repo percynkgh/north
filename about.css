@@ -112,6 +112,10 @@ nav ul li a {
     flex-direction: row;
 }
 
+.contact-info a { color: white;
+    text-decoration: none;
+}
+
 .quick-links ul {
     list-style: none;
     padding: 0;
@@ -147,6 +151,7 @@ footer p {
     .about-container, .mission-container {
         flex-direction: column;
         text-align: center;
+        width: 50%;
     }
     .footer-container {
         flex-direction: column;
@@ -162,7 +167,7 @@ footer p {
 @media (max-width: 768px) {
     body{background-position: center;}
     .about-container, .mission-container {
-        width: 95%;
+        width: 70%;
     }
     .footer-container {
         flex-direction: column;

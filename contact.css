@@ -126,7 +126,9 @@ nav ul li a {
     text-align: center;
     flex-direction: row;
 }
-
+.contact-info a { color: white;
+    text-decoration: none;
+}
 .quick-links ul {
     list-style: none;
     padding: 0;
@@ -149,11 +151,7 @@ footer p {
 
 /* Responsive Design */
 @media (max-width: 1024px) {
-    body{
-        background-image: url(background/cute-domestic-furry-rabbit-cage-daytime.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;background-position: center;}
+    body{background-position: center;}
 
     .header-container {
         flex-direction: column;
@@ -165,7 +163,7 @@ footer p {
         gap: 10px;
     }
     .contact {
-        width: 90%;
+        width: 80%;
     }
     .footer-container {
         flex-direction: column;
@@ -180,11 +178,7 @@ footer p {
 }
 
 @media (max-width: 768px) {  
-    body{
-        background-image: url(background/cute-domestic-furry-rabbit-cage-daytime.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;background-position: center;}
+    body{background-position: center;}
 
     .contact {
         width: 95%;
