@@ -30,11 +30,19 @@ header {
     margin: 0 auto;
 }
 
-.logo {
-    font-size: 28px;
-    font-weight: bold;
-}
 
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo img {
+    width:50% ;
+    height: 70px;
+    border-radius: 3px;
+  }
+  
 nav ul {
     list-style: none;
     padding: 0;
