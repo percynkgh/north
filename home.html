@@ -1,95 +1,211 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>North Farms - Home</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="home.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>North Farms - Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="home.css"/>
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <img src="images/logo 2025-06-14 at 13.43.49_6355b433.jpg" alt="North Farms Logo" width="50">
-                <h1>North Farms</h1>
-              </div>
-              
-            <nav>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="products.html">Products</a></li>
-                    
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+  <header>
+    <div class="header-container">
+      <div class="logo">
+        <img src="images/logo 2025-06-14 at 13.43.49_6355b433.jpg" alt="North Farms Logo" width="50"/>
+        <h1>North Farms</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to North Farms</h2>
+    <p class="catchphrase">"From Fluffy Companions to Savory Delight"<br/>"Discover the world of Rabbits at our Farm"</p>
+  </section>
+
+  <section class="services">
+    <h2>Some Of Our Services</h2>
+    <div class="service-container">
+
+      <!-- Live Rabbits -->
+      <div class="service" data-service="Live Rabbits">
+        <img src="images/live.jpg" alt="Live Rabbits">
+        <h3>Live Rabbits</h3>
+        <p>Healthy, well-bred rabbits for breeding or companionship.</p>
+        <button class="view-more-btn">View More Pictures</button>
+        <div class="more-images">
+          <img src="images/pets.jpg" alt="Live Rabbit 2">
+          <img src="images/pets.jpg" alt="Live Rabbit 3">
         </div>
-    </header>
-    
-    <section class="hero">
-        <h2>Welcome to North Farms</h2>
-        <p class="catchphrase">"From Fluffy Companions to Savory Delight"<br> "Discover the world of Rabbits at our Farm"</p>
-        
-    </section>
-    
-    <section class="services">
-        <h2>Some Of Our Services</h2>
-        <div class="service-container">
-            <div class="service">
-                <img src="images/live.jpg" alt="Live Rabbits">
-                <h3>Live Rabbits</h3>
-                <p>Healthy, well-bred rabbits for breeding or companionship.</p>
-            </div>
-            <div class="service">
-                <img src="images/grilled_F_264461410_7krhJymxbyQx0ii4SgjJ6PX1ygJpl5Yi.jpg" alt="Grilled & Dressed Rabbits">
-                <h3>Grilled & Dressed Rabbits</h3>
-                <p>Delicious and nutritious rabbit meat prepared to your preference.</p>
-            </div>
-            <div class="service">
-                <img src="images/feeed istockphoto-1276714803-612x612.jpg" alt="Rabbit Feeds">
-                <h3>Rabbit Feeds</h3>
-                <p>High-quality, balanced rabbit feeds to ensure proper growth and health.</p>
-            </div>
-            <div class="service">
-                <img src="images/wire cage.jpg" alt="Rabbit Cages">
-                <h3>Rabbit Cages</h3>
-                <p>Durable, well-ventilated cages designed for rabbit comfort and safety.</p>
-            </div>
+      </div>
+
+      <!-- Grilled & Dressed Rabbits -->
+      <div class="service" data-service="Grilled & Dressed Rabbits">
+        <img src="images/grilled_F_264461410_7krhJymxbyQx0ii4SgjJ6PX1ygJpl5Yi.jpg" alt="Grilled & Dressed Rabbits">
+        <h3>Grilled & Dressed Rabbits</h3>
+        <p>Delicious and nutritious rabbit meat prepared to your preference.</p>
+        <button class="view-more-btn">View More Pictures</button>
+        <div class="more-images">
+          <img src="images/grilled_F_264461410_7krhJymxbyQx0ii4SgjJ6PX1ygJpl5Yi.jpg" alt="Grilled Rabbit 2">
+          <img src="images/grilled_F_264461410_7krhJymxbyQx0ii4SgjJ6PX1ygJpl5Yi.jpg" alt="Grilled Rabbit 3">
         </div>
-    </section>
-    
-    <footer>
-        <div class="footer-container">
-            <div class="quick-links">
-                <h3>Quick Links</h3>
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="products.html">Products</a></li>
-                  
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-            <div class="contact-info">
-                <div><h3>Contact Us</h3>
-                    <a href="mailto:ezekielyeng2@gmail.com">Email: ezekielyeng2@gmail.com</a>
-                    <p>Phone: +233 203548382 </p>
-                    <p>Location: Wa Nakori,Ghana</p></div>
-                <div class="social-media">
-                    <h3>Follow Us</h3>
-                    <p>
-                        
-                        <a href="https://www.instagram.com/north_farms_gh?igsh=MWdydGh5azEydHJrbQ==">Instagram</a> |
-                        <a href="https://www.tiktok.com/@yengezekiel91?_t=ZM-8uvxLPrbXNd&_r=1">TikTok</a>
-                        <a href="https://www.facebook.com/share/16pdzjZahM/?mibextid=LQQJ4d">Facebook</a>
-                        <a href="https://youtube.com/@northfarms455?si=2IdKsYn3RKI0A3sX">YouTube</a>
-                    </p>
-                </div>
-            </div>
+      </div>
+
+      <!-- Rabbit Feeds -->
+      <div class="service" data-service="Rabbit Feeds">
+        <img src="images/feeed istockphoto-1276714803-612x612.jpg" alt="Rabbit Feeds">
+        <h3>Rabbit Feeds</h3>
+        <p>High-quality, balanced rabbit feeds to ensure proper growth and health.</p>
+        <button class="view-more-btn">View More Pictures</button>
+        <div class="more-images">
+          <img src="images/pets.jpg" alt="Rabbit Feed 2">
+          <img src="images/pets.jpg" alt="Rabbit Feed 3">
         </div>
-        <p>&copy; 2025 North Farms. All rights reserved.</p>
-    </footer>
+      </div>
+
+      <!-- Rabbit Cages -->
+      <div class="service" data-service="Rabbit Cages">
+        <img src="images/wire cage.jpg" alt="Rabbit Cages">
+        <h3>Rabbit Cages</h3>
+        <p>Durable, well-ventilated cages designed for rabbit comfort and safety.</p>
+        <button class="view-more-btn">View More Pictures</button>
+        <div class="more-images">
+          <img src="images/wire cage.jpg" alt="Rabbit Cage 2">
+          <img src="images/wire cage.jpg" alt="Rabbit Cage 3">
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Picture Viewer Modal -->
+  <div class="picture-viewer" id="pictureViewer">
+    <div class="viewer-content">
+      <button class="close-btn" onclick="closePictureViewer()">&times;</button>
+      <div class="viewer-header">
+        <h3 id="viewerTitle">Pictures</h3>
+      </div>
+      <div class="viewer-images" id="viewerImages">
+        <!-- Images will be dynamically added here -->
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="quick-links">
+        <h3>Quick Links</h3>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="contact-info">
+        <div>
+          <h3>Contact Us</h3>
+          <a href="mailto:ezekielyeng2@gmail.com">Email: ezekielyeng2@gmail.com</a>
+          <p>Phone: +233 203548382</p>
+          <p>Location: Wa Nakori, Ghana</p>
+        </div>
+        <div class="social-media">
+          <h3>Follow Us</h3>
+          <p>
+            <a href="https://www.instagram.com/north_farms_gh?igsh=MWdydGh5azEydHJrbQ==">Instagram</a> |
+            <a href="https://www.tiktok.com/@yengezekiel91?_t=ZM-8uvxLPrbXNd&_r=1">TikTok</a>
+            <a href="https://www.facebook.com/share/16pdzjZahM/?mibextid=LQQJ4d">Facebook</a>
+            <a href="https://youtube.com/@northfarms455?si=2IdKsYn3RKI0A3sX">YouTube</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <p>&copy; 2025 North Farms. All rights reserved.</p>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const services = document.querySelectorAll('.service');
+    
+      services.forEach(service => {
+        const button = service.querySelector('.view-more-btn');
+        const serviceName = service.getAttribute('data-service');
+    
+        button.addEventListener('click', () => {
+          // Get all images from this service (main image + more images)
+          const mainImg = service.querySelector('img');
+          const additionalImgs = service.querySelectorAll('.more-images img');
+          
+          // Collect all image sources
+          const allImages = [mainImg, ...additionalImgs];
+          
+          // Open picture viewer
+          openPictureViewer(serviceName, allImages);
+        });
+      });
+    });
+
+    function openPictureViewer(title, images) {
+      const viewer = document.getElementById('pictureViewer');
+      const viewerTitle = document.getElementById('viewerTitle');
+      const viewerImages = document.getElementById('viewerImages');
+      
+      // Set title
+      viewerTitle.textContent = title;
+      
+      // Clear previous images
+      viewerImages.innerHTML = '';
+      
+      // Add all images to viewer
+      images.forEach(img => {
+        const imgElement = document.createElement('img');
+        imgElement.src = img.src;
+        imgElement.alt = img.alt;
+        imgElement.onclick = () => {
+          // Optional: Open individual image in full screen
+          window.open(img.src, '_blank');
+        };
+        viewerImages.appendChild(imgElement);
+      });
+      
+      // Show viewer
+      viewer.classList.add('active');
+      
+      // Prevent body scroll
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closePictureViewer() {
+      const viewer = document.getElementById('pictureViewer');
+      viewer.classList.remove('active');
+      
+      // Restore body scroll
+      document.body.style.overflow = 'auto';
+    }
+
+    // Close viewer when clicking outside content
+    document.getElementById('pictureViewer').addEventListener('click', function(e) {
+      if (e.target === this) {
+        closePictureViewer();
+      }
+    });
+
+    // Close viewer with Escape key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        closePictureViewer();
+      }
+    });
+  </script>
+    
 </body>
 </html>
