@@ -391,6 +391,7 @@ footer p {
 @media (max-width: 768px) {
   body {
     background-position: center;
+    background-attachment: scroll; /* Changed from fixed to scroll for mobile */
   }
   
   header {
@@ -459,7 +460,18 @@ footer p {
   }
 }
 
+/* Additional mobile targeting for better compatibility */
+@media (hover: none) and (pointer: coarse) {
+  body {
+    background-attachment: scroll;
+  }
+}
+
 @media (max-width: 480px) {
+  body {
+    background-attachment: scroll; /* Ensure scroll behavior on small screens */
+  }
+  
   .service {
     width: 90%;
   }
